@@ -105,3 +105,6 @@ uname	              Displays OS information
 neofetch	          Displays OS and hardware information
 find	              Searches for files that follow a pattern
 wget	              Retrieves files from the internet
+
+## 3. nodarbība
+https://www.tutorialspoint.com/unix/unix-special-variables.htm
