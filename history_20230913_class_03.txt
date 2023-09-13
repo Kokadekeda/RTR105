@@ -1,1 +1,14 @@
-
+ls -lt
+who
+ls --color=auto
+ls --color=red
+pwd
+neofetch
+nano mana_komanda_1.sh
+nano
+ls -lt mana_komanda_1.sh
+chmod 754 mana_komanda_1.sh
+ls -lt mana_komanda_1.sh
+PATH=$PATH:~
+mana_komanda_1.sh cd ~
+history
