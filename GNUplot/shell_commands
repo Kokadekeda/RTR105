@@ -1,0 +1,5 @@
+chmod 744 gnuplot_test.gp
+
+ls -lt
+
+./gnuplot_test.gp
