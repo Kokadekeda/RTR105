@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+// Kristaps Peteris Ansons
+// 201RMC060
+
 int main()
 {
 	char data_type;
