@@ -1,5 +1,5 @@
 wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU1.c
-
+wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU2.c
 gcc PU1.c -o PU1.out
 ./PU1.out
 
