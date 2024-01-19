@@ -6,8 +6,9 @@ wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU5.c
 
 wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU6/main.c
 wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU6/mod.c
+wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU6/mod.h
 
 gcc PU1.c -o PU1.out
 ./PU1.out
 
-gcc -o PU6 main.c foo.c
+gcc -o PU6 main.c mod.c
