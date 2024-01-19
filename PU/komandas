@@ -3,7 +3,7 @@ wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU2.c
 wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU3.c
 wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU4.c
 wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU5.c
-wget
+wget https://raw.githubusercontent.com/Kokadekeda/RTR105/main/PU/PU6/main.c
 
 gcc PU1.c -o PU1.out
 ./PU1.out
