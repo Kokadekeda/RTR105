@@ -1,3 +1,4 @@
 gcc PU1.c -o PU1.out
 ./PU1.out
 
+gcc -o PU6 main.c foo.c
