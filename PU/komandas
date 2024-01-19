@@ -1,3 +1,5 @@
+wget
+
 gcc PU1.c -o PU1.out
 ./PU1.out
 
