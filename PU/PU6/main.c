@@ -15,6 +15,7 @@ int main()
 	printf("\n");
 	
 	int one = One();
+	printf("%d", one);
 	
 	printf("\n");
 	
