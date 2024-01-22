@@ -3,11 +3,11 @@
 
 // Kristaps Peteris Ansons
 // 201RMC060
+// Labots
 
 int main()
 {
 	char data_type;
-	
 	printf("-char [c]:\n");
 	printf("-int [i]:\n");
 	printf("-long long [l]:\n");
@@ -22,10 +22,9 @@ int main()
 		char result_last;
 		bool error = false;
 		printf("Ievadiet skaitli: ");
-		scanf(" %d", &number);
+		scanf(" %hhd", &number);
 		printf("\n");
 		result = number;
-
 		for (; number > 1;)
 		{
 			result_last = result;
@@ -45,7 +44,7 @@ int main()
 		}
 		if (error == false)
 		{
-			printf("Izmantojot char datu tipu, faktorials sanak %d\n", result);
+			printf("Izmantojot char datu tipu, faktorials sanak %hhd\n", result);
 		}
 		else
 		{
@@ -98,7 +97,7 @@ int main()
 		long long result_last;
 		bool error = false;
 		printf("Ievadiet skaitli: ");
-		scanf(" %d", &number);
+		scanf(" %lld", &number);
 		printf("\n");
 		result = number;
 		for (; number > 1;)
@@ -120,7 +119,7 @@ int main()
 		}
 		if (error == 0)
 		{
-			printf("Izmantojot long long datu tipu, faktorials sanak %d\n", result);
+			printf("Izmantojot long long datu tipu, faktorials sanak %lld\n", result);
 		}
 		else
 		{
